@@ -11,7 +11,7 @@
 ///     }
 /// }
 /// ```
-#[mod_dir::expand(path = "tests/others")]
+#[mod_gen::expand(path = "tests/others")]
 mod others {}
 
 #[test]

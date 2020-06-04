@@ -1,12 +1,11 @@
 [package]
-name = "mod-dir"
+name = "mod-gen"
 version = "0.1.0"
 authors = ["AtsukiTak <takatomgoo@gmail.com>"]
 edition = "2018"
-repository = "https://github.com/AtsukiTak/mod-dir"
-keywords = ["macro", "log", "fn"]
+repository = "https://github.com/AtsukiTak/mod-gen"
+keywords = ["macro", "module", "auto"]
 license = "MIT OR Apache-2.0"
-readme = "README.md"
 description = ""
 
 [lib]
