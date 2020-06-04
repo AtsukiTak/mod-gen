@@ -1,0 +1,18 @@
+[package]
+name = "mod-dir"
+version = "0.1.0"
+authors = ["AtsukiTak <takatomgoo@gmail.com>"]
+edition = "2018"
+repository = "https://github.com/AtsukiTak/mod-dir"
+keywords = ["macro", "log", "fn"]
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+description = ""
+
+[lib]
+proc-macro = true
+
+[dependencies]
+syn = { version = "1.0", features = ["full", "extra-traits"] }
+quote = "1.0"
+proc-macro2 = "1.0"
